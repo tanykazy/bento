@@ -44,7 +44,7 @@ jobs:
       - name: Deploy
         env:
           # GITHUB_TOKEN は自動生成されるのでとくに設定は不要
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # NPM スクリプト名は 'release' にすることが必須
         run: npm run publish
         # run: npm run release
