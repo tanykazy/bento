@@ -25,7 +25,7 @@ module.exports = {
       config: {
         repository: {
           owner: 'tanykazy',
-          name: 'bento',
+          name: 'portal',
         },
         prerelease: false,
         draft: true,
