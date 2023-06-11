@@ -1,3 +1,3 @@
-# bento
+# portal
 
 simple launcher
